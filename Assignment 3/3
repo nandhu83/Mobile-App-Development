@@ -1,0 +1,2 @@
+Create an app that calculates the Body Mass Index (BMI) based on user input for weight and height in EditText fields.
+The result is displayed in a TextView after pressing a Button.
