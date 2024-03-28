@@ -1,0 +1,2 @@
+Create an app that converts temperatures between Celsius and Fahrenheit.
+Users can enter a temperature in an EditText, press a Button to perform the conversion, and see the result in a TextView.
