@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Student Details Main Heading -->
+    <TextView
+        android:id="@+id/textViewMainHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Student Details"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"/>
+
+    <!-- Basic Details Subheading -->
+    <TextView
+        android:id="@+id/textViewBasicDetailsHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Basic Details"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_below="@id/textViewMainHeading"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"/>
+
+    <!-- Container for Basic Details Fragment -->
+    <FrameLayout
+        android:id="@+id/container_basic_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewBasicDetailsHeading"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"/>
+
+    <!-- Mark Details Subheading -->
+    <TextView
+        android:id="@+id/textViewMarkDetailsHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mark Details"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_below="@id/container_basic_details"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"/>
+
+    <!-- Container for Mark Details Fragment -->
+    <FrameLayout
+        android:id="@+id/container_mark_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewMarkDetailsHeading"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="32dp"/>
+
+</RelativeLayout>

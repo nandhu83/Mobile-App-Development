@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <EditText
+        android:id="@+id/editTextSSLC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="SSLC Marks" />
+
+    <EditText
+        android:id="@+id/editTextHSC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextSSLC"
+        android:hint="HSC Marks" />
+
+    <EditText
+        android:id="@+id/editTextUG"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextHSC"
+        android:hint="UG Marks" />
+</RelativeLayout>
