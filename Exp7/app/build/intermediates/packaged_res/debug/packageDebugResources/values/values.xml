@@ -2,7 +2,7 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <string name="app_name">Exp7</string>
+    <string name="app_name">Exp 7</string>
     <style name="Base.Theme.Exp7" parent="Theme.Material3.DayNight.NoActionBar">
         
         
