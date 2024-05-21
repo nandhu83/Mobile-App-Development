@@ -1,0 +1,21 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color purple_500
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id button_get_telephony_info
+id edit_text_device_software_version
+id edit_text_network_country_iso
+id edit_text_network_operator
+id edit_text_phone_type
+id edit_text_sim_country_iso
+layout activity_main
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Base.Theme.Exp7
+style Theme.Exp7
+xml backup_rules
+xml data_extraction_rules
